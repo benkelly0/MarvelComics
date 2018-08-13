@@ -1,0 +1,10 @@
+node_modules
+.DS_store
+package-lock.json
+package.json
+*.pdf
+*.psd
+*.zip
+*.config
+gulpfile.js
+Benedict-Kelly-Project3
