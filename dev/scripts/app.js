@@ -7,7 +7,7 @@ const hash = CryptoJS.MD5(ts+privateKey+publicKey).toString();
 
 marvel.getMarvel = (query) => {
 		$.ajax({
-			url: 'https://gateway.marvel.com/v1/public/comics',
+			url: 'http://gateway.marvel.com/v1/public/comics',
 			method: 'GET',
 			dataType: 'json',
 			data:{
