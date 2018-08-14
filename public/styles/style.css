@@ -180,7 +180,7 @@ template {
   overflow: hidden; }
 
 img {
-  width: 100%; }
+  max-width: 100%; }
 
 html {
   font-size: 62.5%;
@@ -199,7 +199,7 @@ header {
   background-image: url("../../assets/marvelLogo.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
+  background-position: top;
   min-height: 60vh; }
 
 form {
@@ -228,4 +228,6 @@ form {
   background: darkgrey;
   border-radius: 50px;
   padding: 20px 20px;
-  text-align: center; }
+  text-align: center;
+  width: 70%;
+  margin: 0 auto; }
